@@ -1,7 +1,28 @@
 aid: milano-vice
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/milano-vice.png
 name: Milano Vice
-description: Milano Vice is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Milano Vice is a Berlin-based virtual restaurant company founded in 2021 by
+  Rudolf Donauer and Dennis Murselovic (both ex-Delivery Hero) that operates a
+  digitally-powered, delivery-first pizza brand. It partners with professional
+  kitchens across German cities including Berlin, Cologne, Hamburg and
+  Frankfurt to prepare and deliver handmade pizzas and pinsa to homes and
+  offices, orderable through its own website and third-party delivery
+  platforms such as Lieferando, Wolt and Uber Eats. It is a consumer food
+  brand backed by Speedinvest, Coefficient Capital, True and Geschwister
+  Oetker, and does not currently publish a public developer API surface. This
+  profile was added to the API Evangelist network as a portfolio-lead stub.
 url: https://raw.githubusercontent.com/api-evangelist/milano-vice/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Food Delivery
+- Virtual Restaurant
+- Cloud Kitchen
+- Pizza
+- Consumer
+- Germany
+common:
+- type: DomainSecurity
+  url: security/milano-vice-domain-security.yml
+- type: Website
+  url: https://www.milano-vice.de/
 apis: []
 maintainers:
 - FN: Kin Lane
